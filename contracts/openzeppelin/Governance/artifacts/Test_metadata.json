@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "clock",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/openzeppelin/Governance/Test.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/openzeppelin/Governance/Test.sol": {
+			"keccak256": "0x2857bead5d6602fae407988d28480f2170d714efe9aae304327738aba3e1c00a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4440d867d6689a9d830dd19a5324630657d514140d03f9b943978ba306263e62",
+				"dweb:/ipfs/QmbZSB4GBiqQBnd4Vcr65KLw9fv7nhvykBWkoXrbR3JKZW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/program/可升级.sol": "StorageSlot"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/program/可升级.sol": {
+			"keccak256": "0xbdd10ea90121d754d6ea7d54c7447636aa5e21a3d27529163a45773e09d67646",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad5c2e5a341136dea7e6052563ea61ce682f3377565126345aca7b517f8ac373",
+				"dweb:/ipfs/QmawhNRtYmKzijH28fiGVPp6iwtE8cTPJF5x6JZHPG8BoD"
+			]
+		}
+	},
+	"version": 1
+}

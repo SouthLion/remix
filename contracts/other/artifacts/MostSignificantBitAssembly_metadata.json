@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MAX_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "mostSignificantBit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "mostSignificantBit1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "msb",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/other/MostSignificantBit.sol": "MostSignificantBitAssembly"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/other/MostSignificantBit.sol": {
+			"keccak256": "0xeb92bad85b0cf569d843029e07f81e62652644a542a66de3b17f7f0ecc9e2c43",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5eddff97d984a4a4e65f520ccf0967384c8965be05fa7b28e6845ee6a863b05d",
+				"dweb:/ipfs/QmXPDr2BZDLfURRGd72waYyAApdfbxVpyfgah7x21baWj4"
+			]
+		}
+	},
+	"version": 1
+}

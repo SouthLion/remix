@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Signature message hash utilities for producing digests to be consumed by {ECDSA} recovery or signing. The library provides methods for generating a hash of a message that conforms to the https://eips.ethereum.org/EIPS/eip-191[EIP 191] and https://eips.ethereum.org/EIPS/eip-712[EIP 712] specifications.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/MessageHashUtils.sol": "MessageHashUtils"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/OpenZeppelin/openzeppelin-contracts/contracts/utils/Strings.sol": {
+			"keccak256": "0x49337050432e46ff7e86ea7cb6d6aa70b039ff4e8bcd469cc1b519d185ca890f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86c968a32a3d29abe387512121f1811a9f4ca1e513b83332f21faaa314ba73a9",
+				"dweb:/ipfs/QmPXb4iEQssiSp76DdQz5hxZuXoRBrzzryxoWg1EBSGCSr"
+			]
+		},
+		".deps/github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/MessageHashUtils.sol": {
+			"keccak256": "0xae90ae7275f247c994bcc5ec547c4803e7aa73dde7c5fdf6d0b1f1b318ff9dd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://576c5aebfebad7695bf45b0eb075c652109d751fb09725f5db3ef1bccd336173",
+				"dweb:/ipfs/QmSZk6qPT8rGpYR47feDpWVUppYAAu7AbRU9aFay16Xfo6"
+			]
+		},
+		".deps/github/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/Math.sol": {
+			"keccak256": "0x088ee0205fd15191af2b3476588d5835e7423592de84cbd22254a5f0324bf875",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0e32f866d531bef65a7ea964acf26c649b9534bc30a5151a5c567eec8cfb542",
+				"dweb:/ipfs/QmaeDW4P8DfzqJELGS4BBEhHuUwuyCqJUpMKfDakJxJedr"
+			]
+		},
+		".deps/github/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x71f1e3e36221d7510530ef7d998aa908889ef642bcd84bc07f071ad02f6bb0ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e4fd5aab76c59dcf0efc9d05510bb09a5d23f526459548f82de556ff4ba3d9e",
+				"dweb:/ipfs/QmUF4QqcPPdbyxc3RDHkHU9zpJMgv6CpgWGFurwLPQ3nHa"
+			]
+		}
+	},
+	"version": 1
+}

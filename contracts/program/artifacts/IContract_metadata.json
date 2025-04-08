@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMeaningOfLife",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/program/SimpleByteCodeContract.sol": "IContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/program/SimpleByteCodeContract.sol": {
+			"keccak256": "0x372d7dc37b42fdff0e5b50605e59bda8c54180c4021e217a327f28b176954d95",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://607aee07cee8da0790949533344bd176e855a51009accaafbf47a09777a4bb56",
+				"dweb:/ipfs/QmawvaEA7Prq1ku9zXiKaXaQ7L7yTNzHpNdkSSPWnzZ4nq"
+			]
+		}
+	},
+	"version": 1
+}

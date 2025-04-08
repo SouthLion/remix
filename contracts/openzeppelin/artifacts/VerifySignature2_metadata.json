@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ECDSAInvalidSignature",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "ECDSAInvalidSignatureLength",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "ECDSAInvalidSignatureS",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "recover",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"ECDSAInvalidSignature()": [
+					{
+						"details": "The signature derives the `address(0)`."
+					}
+				],
+				"ECDSAInvalidSignatureLength(uint256)": [
+					{
+						"details": "The signature has an invalid length."
+					}
+				],
+				"ECDSAInvalidSignatureS(bytes32)": [
+					{
+						"details": "The signature has an S value that is in the upper half order."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/openzeppelin/VerifySignature2.sol": "VerifySignature2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/openzeppelin/VerifySignature2.sol": {
+			"keccak256": "0x0eae4366c7c350d13ac2dbdc42f66871c6ac6e1e6e5d7d1a8b60dba0acb3de4d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70f2157651e916563a92d71b53826e7932f7869ef84db92f466da5322c344835",
+				"dweb:/ipfs/QmQD6AYeHTfuLCCLLPb58QxQ8rScg2rqtwqhghhMvZWseY"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.0-rc.0/contracts/utils/Strings.sol": {
+			"keccak256": "0x49337050432e46ff7e86ea7cb6d6aa70b039ff4e8bcd469cc1b519d185ca890f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86c968a32a3d29abe387512121f1811a9f4ca1e513b83332f21faaa314ba73a9",
+				"dweb:/ipfs/QmPXb4iEQssiSp76DdQz5hxZuXoRBrzzryxoWg1EBSGCSr"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.0-rc.0/contracts/utils/cryptography/ECDSA.sol": {
+			"keccak256": "0x7578fa441a6adafced5895855b51f49ed8bb44233a6da22b564567fa471c8f42",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec1717d6741b2af68c1f41f7109c92f851ee9f0cf602b5c0cd9cb65a687a4f4c",
+				"dweb:/ipfs/QmSh388TDHQjTJTziWbny4y7XFQUpbxCECBntCBcVmZ8uX"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.0-rc.0/contracts/utils/cryptography/MessageHashUtils.sol": {
+			"keccak256": "0xae90ae7275f247c994bcc5ec547c4803e7aa73dde7c5fdf6d0b1f1b318ff9dd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://576c5aebfebad7695bf45b0eb075c652109d751fb09725f5db3ef1bccd336173",
+				"dweb:/ipfs/QmSZk6qPT8rGpYR47feDpWVUppYAAu7AbRU9aFay16Xfo6"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.0-rc.0/contracts/utils/math/Math.sol": {
+			"keccak256": "0x088ee0205fd15191af2b3476588d5835e7423592de84cbd22254a5f0324bf875",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0e32f866d531bef65a7ea964acf26c649b9534bc30a5151a5c567eec8cfb542",
+				"dweb:/ipfs/QmaeDW4P8DfzqJELGS4BBEhHuUwuyCqJUpMKfDakJxJedr"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.0-rc.0/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x71f1e3e36221d7510530ef7d998aa908889ef642bcd84bc07f071ad02f6bb0ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e4fd5aab76c59dcf0efc9d05510bb09a5d23f526459548f82de556ff4ba3d9e",
+				"dweb:/ipfs/QmUF4QqcPPdbyxc3RDHkHU9zpJMgv6CpgWGFurwLPQ3nHa"
+			]
+		}
+	},
+	"version": 1
+}
