@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 // 一次查询中返回多次结果
-pragma solidity 0.8.23;
+pragma solidity ^0.8.23;
 
 contract TestMultiCall {
     function func1() external view returns (uint256, uint256) {

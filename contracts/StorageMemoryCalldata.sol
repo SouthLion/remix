@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.23;
 
 // Data locations - storage, memory and calldata
 contract DataLocations {
@@ -7,11 +7,11 @@ contract DataLocations {
         uint256 foo;
         string text;
     }
-    mapping(address => MyStruct) myStructs;
+    mapping(address => MyStruct)  public myStructs;
 
     function examples(uint256[] calldata y, string calldata s)
         external
-        returns (uint256[] memory)
+        returns (uint256[] memory) // MyStruct memory
     {
         myStructs[msg.sender] = MyStruct({foo: 123, text: "bar"});
         MyStruct storage myStruct = myStructs[msg.sender];

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity ^0.8.23;
 
 
 // visibility
@@ -10,14 +10,16 @@ pragma solidity 0.8.26;
 
 // external - 只能外部调⽤
 /*
-A
-private pri()
-internal inter()
-public pub() <-------- C pub() and ext()
-external ext()
-B is A
-inter() <-------- C pub() and ext()
-pub()
+    A
+    private pri()
+    internal inter()
+    public pub() <-------- 外部合约C只能调用 pub() and ext()
+    external ext()
+
+    B is A
+    B合约只能调用inter()和pub()
+    inter() <-------- 外部合约C只能调用B继承A的方法 pub() and ext()
+    pub()
 */
 
 contract Base {

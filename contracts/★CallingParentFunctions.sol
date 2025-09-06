@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.3;
+pragma solidity ^0.8.23;
 
-C3线性化算法
+// C3线性化算法
 /* Inheritance tree
 
 - direct
@@ -28,7 +28,7 @@ contract E {
 contract F is E {
     function foo() public virtual override {
         emit Log("F.foo");
-        E.foo();
+        E.foo();    // 或者super.foo()
     }
 
     function bar() public virtual override {

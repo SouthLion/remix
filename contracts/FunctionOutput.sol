@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.23;
 
 // Return multiple outputs
 // Named outputs
@@ -18,4 +18,13 @@ contract FunctionOutputs {
         x = 1;
         b = true;
     }
+
+    function destructingAssigments()public pure{
+        (uint x,bool b) = returnMany();
+        
+        // 只获取第二个变量
+        (,bool c) = returnMany();
+
+    }
+    
 }

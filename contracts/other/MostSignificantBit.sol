@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.23;
 
 contract MostSignificantBitAssembly {
     uint256 public constant MAX_UINT = type(uint256).max;

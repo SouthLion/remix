@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity ^0.8.23;
 
 contract IterableMapping {
+
+    // mapping不能直接查询他的长度，或者直接轮询它的元素，除非去维护另外一个数组
     mapping(address => uint256) public balances;
     mapping(address => bool) public inserted;
     address[] public keys;

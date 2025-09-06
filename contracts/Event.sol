@@ -1,9 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.3;
+pragma solidity ^0.8.23;
 
 contract Event {
-    // up to 3 index
+
+    // up to 3 index（最多只能设置3个索引）
     event Log(string message, uint256 val);
+
     event IndexedLog(address indexed sender, uint256 val);
 
     function example() external {

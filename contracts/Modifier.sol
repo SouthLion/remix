@@ -1,8 +1,16 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.23;
 
 // Function modifier - 代码重⽤
 // Basic, inputs, sandwich
+
+// function <函数名>(<参数列表>)
+//     [可见性修饰符]   // public | external | internal | private
+//     [状态修饰符]     // pure | view | payable
+//     [权限/自定义modifier]  // onlyOwner 等
+//     [virtual/override]    // 是否允许/需要重写
+//     [returns (…)]   // 返回值
+
 contract FunctionModifier {
     bool public paused;
     uint256 public count;

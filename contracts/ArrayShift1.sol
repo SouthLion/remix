@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity ^0.8.23;
 
 contract ArrayShift {
     uint256[] public arr;
 
     function example() public {
         arr = [1, 2, 3];
-        delete arr[1]; // [1, 0, 3] [1, 3]
+        delete arr[1]; // 结果是[1, 0, 3] ，但是实际真正期望的应该是[1, 3]
     }
 
     // [1, 2, 3] -- remove(1) -- [1, 3, 3 ] --> [1 ,3]

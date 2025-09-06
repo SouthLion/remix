@@ -1,7 +1,24 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.23;
 
 contract PayableExample {
+
+     /*   address payable（可支付地址）
+
+         在address 基础上多了一些 与转账相关的方法：
+
+        .transfer(uint256 amount)
+
+        .send(uint256 amount)
+
+        .call{value: amount}("")
+        可以接收、发送 ETH
+
+
+       address payable = 钱包地址，能转账（“谁收钱”）。
+
+       receive() payable = 钱包的入口函数，别人给你打钱时执行（“怎么收钱”）。 
+    */
     address payable public recipient;
 
     // 构造函数，初始化 recipient 为 msg.sender

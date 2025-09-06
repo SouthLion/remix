@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity ^0.8.23;
 
 // Mapping
 // How to declare a mapping (简单版本 & 嵌套版本)
@@ -16,6 +16,6 @@ contract Mapping {
         uint256 bal2 = balances[address(1)]; // 0
         balances[msg.sender] += 456; // 123 + 456 = 579
         delete balances[msg.sender]; // 0
-        isFriend[msg.sender][address(this)] = true;
+        isFriend[msg.sender][address(this)] = true; // 发交易的地址是合约的朋友
     }
 }

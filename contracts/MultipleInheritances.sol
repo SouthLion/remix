@@ -1,5 +1,28 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.3;
+pragma solidity ^0.8.23;
+
+// 继承顺序： 最上层的最优先
+
+/*
+
+    X
+  / | 
+  Y |
+  \ |
+    Z
+
+// 继承顺序：X, Y, Z
+
+    X
+   / \
+   Y  A
+   |  |
+   |  B
+   \ /
+    Z
+
+// 继承顺序：X，Y, A, B,Z
+*/
 
 contract X {
     function foo() public pure virtual returns (string memory) {
@@ -32,6 +55,7 @@ contract Y is X {
 }
 
 contract Z is X, Y {
+    // override（X，Y）和override（Y，X）顺序无所谓
     function foo() public pure override(X, Y) returns (string memory) {
         return "Z";
     }

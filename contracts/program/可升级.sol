@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity ^0.8.23;
 
 // 1. 重现透明可升级代理，并探讨其错误实现。
 // 2. 视频系列内容：

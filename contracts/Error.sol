@@ -2,7 +2,7 @@
 // - gas refund, state updates are reverted
 // custom error - save gas
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.23;
 
 contract Error1 {
     function testRequire(uint256 _i) public pure {
